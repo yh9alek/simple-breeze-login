@@ -24,7 +24,7 @@
 Homestead.json
 Homestead.yaml
 
-# Submódulos / repos independientes
+# Repos independientes / Código compartido
 resources/assets/
 resources/views/components/
 resources/views/layouts/
