@@ -1,4 +1,6 @@
+# Entradas por defecto
 *.log
+*.lock
 .DS_Store
 .env
 .env.backup
@@ -21,4 +23,35 @@
 /vendor
 Homestead.json
 Homestead.yaml
+
+# Submódulos / repos independientes
+resources/assets/
+resources/views/components/
+resources/views/layouts/
+
+# Docker
+docker-compose.override.yml
+
+# Sail u otros entornos locales
+.sail.env
+
+# Archivos de sistema de Windows/Linux
 Thumbs.db
+desktop.ini
+
+# Cobertura de tests y reportes
+/coverage
+/reports
+
+# Documentación con phpDoc u otros
+/docs/api
+
+# Archivos temporales de editores
+*.swp
+*.swo
+*~
+
+# Herramientas de análisis estático
+/.phpstan.cache
+/.php-cs-fixer.cache
+.php_cs.cache
